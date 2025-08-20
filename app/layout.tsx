@@ -1,4 +1,4 @@
-import './globals.css'
+import '../globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
 
@@ -25,4 +25,5 @@ export default function RootLayout({
     </html>
   )
 }
+
 
