@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import JobCard from '../../components/JobCard'
-import LoadingSpinner from '../../components/LoadingSpinner'
+import JobCard from './components/JobCard'
+import LoadingSpinner from './components/LoadingSpinner'
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
 
@@ -177,3 +177,4 @@ export default function JobsPage() {
   );
 
 }
+
