@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8080";  // FastAPI backend
+const API_BASE = "https://jobpeek-backend.onrender.com";  // FastAPI backend
 let currentJobId = null;
 let visitedJobs = new Set();  // store job IDs already opened
 
@@ -130,3 +130,4 @@ document.getElementById("prev-btn").addEventListener("click", loadPrevJob);
 
 // Load first job on startup
 loadFirstJob();
+
