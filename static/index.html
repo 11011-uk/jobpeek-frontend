@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="img/icon.png">
 </head>
 <body>
   <div class="wrap">
@@ -61,7 +62,7 @@
         <label>Job Description</label>
         <pre id="job-description" class="desc" aria-label="Formatted job description">—</pre>
         <div class="row right">
-          <button class="btn tiny" onclick="copyText('job-description')" aria-label="Copy job description with formatting">Copy Description</button>
+          <button class="btn tiny facebook-btn" onclick="copyDescription()" aria-label="Copy job description with Facebook-safe Unicode formatting">Copy Description</button>
         </div>
       </div>
     </main>
